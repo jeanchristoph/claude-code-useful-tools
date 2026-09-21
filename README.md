@@ -3,6 +3,13 @@
 Small utilities around [Claude Code](https://code.claude.com) on Windows. Each tool lives in its own folder and is
 self-contained: no installer, no registry write, no scheduled task — launch it by hand, stop it when you are done.
 
+## Conventions
+
+- One tool = one folder at the repository root (`mute-call-while-dictating/`).
+- One tool = one branch with the same name (`mute-call-while-dictating`).
+- Several branches for one tool → `<tool>/<branch>` (`mute-call-while-dictating/hold-mode`).
+- `master` is the integration branch: tools reach it by merge, never by direct commit.
+
 ## Tools
 
 ### `mute-call-while-dictating/`
